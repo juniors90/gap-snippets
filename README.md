@@ -1,4 +1,8 @@
-# gap-snippets README
+# gap-snippets
+
+[![GitHub issues](https://img.shields.io/github/issues/juniors90/gap-snippets)](https://github.com/juniors90/gap-snippets/issues)
+[![GitHub forks](https://img.shields.io/github/forks/juniors90/gap-snippets)](https://github.com/juniors90/gap-snippets/network)
+[![GitHub stars](https://img.shields.io/github/stars/juniors90/gap-snippets)](https://github.com/juniors90/gap-snippets/stargazers)
 
 This is the README for your extension "gap-snippets". After writing up a brief description, we recommend including the following sections.
 

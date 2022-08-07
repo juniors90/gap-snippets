@@ -7,7 +7,7 @@
   "engines": {
     "vscode": "^1.18.0"
   },
-  "license": "GPLv3",
+  "license": "MIT",
 	"homepage": "https://github.com/juniors90/gap-snippets",
 	"repository": {
 		"type": "git",
