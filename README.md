@@ -23,7 +23,7 @@ Known issues at avaialble at the [Github Repo](https://github.com/juniors90/gap-
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 - [x] Code snippets for Print, LogTo and Read files.
 - [x] The if, if-else, if-elif-else syntax.
