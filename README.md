@@ -3,7 +3,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/juniors90/gap-snippets)](https://github.com/juniors90/gap-snippets/issues)
 [![GitHub forks](https://img.shields.io/github/forks/juniors90/gap-snippets)](https://github.com/juniors90/gap-snippets/network)
 [![GitHub stars](https://img.shields.io/github/stars/juniors90/gap-snippets)](https://github.com/juniors90/gap-snippets/stargazers)
-[![GitHub license](https://img.shields.io/github/license/juniors90/gap-snippets)](https://github.com/juniors90/gap-snippets)
+[![GitHub license](https://badgen.net/badge/license/MIT/blue)](https://github.com/juniors90/gap-snippets/LICENSE)
 
 
 ## Features
