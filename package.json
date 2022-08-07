@@ -1,0 +1,44 @@
+{
+  "name": "gap-snippets",
+  "displayName": "GAP snippet",
+  "description": "Code snippets to build a program with GAP.",
+  "version": "0.0.1",
+  "publisher": "juniors90",
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "license": "GPLv3",
+	"homepage": "https://github.com/juniors90/gap-snippets",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/juniors90/gap-snippets"
+	},
+	"bugs": {
+		"url": "https://github.com/juniors90/gap-snippets/issues"
+	},
+  "icon": "images/gapIcon.png",
+	"keywords": [
+		"GAP",
+    "Algebra",
+    "Groups",
+		"Controls",
+		"Algebra Program Builder"
+	],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "gap",
+        "extensions": [
+          ".g",
+          ".gi",
+          ".gd",
+          "..gaprc"
+        ],
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

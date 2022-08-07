@@ -1,0 +1,115 @@
+{
+    // Place your snippets for gap here. Each snippet is defined under a snippet name and has a prefix, body and
+    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+    // same ids are connected.
+    // Example:
+    "Print to console": {
+      "prefix": "log",
+      "body": [
+          "Print('$1');",
+          "$2"
+      ],
+      "description": "Log output to console"
+    },
+    "Log to filename": {
+      "prefix": "logTo",
+      "body": [
+          "LogTo('${1:Filename.log}');",
+          "$2"
+      ],
+      "description": "Log output to filename"
+    },
+    "Read filename": {
+      "prefix": "read",
+      "body": [
+          "Read('${1:path/to/the/Filename.g}');",
+          "$2"
+      ],
+      "description": "Read a file"
+    },
+    "Names User GAP Variables": {
+      "prefix": "NamesUserGVars",
+      "body": [
+          "NamesUserGVars();",
+          "$1"
+      ],
+      "description": "Show names user GAP Variables"
+    },
+    "The for loop syntax": {
+      "prefix": "for",
+      "body": [
+          "for var in list do",
+          "#    '${1:statements}'",
+          "od;",
+          "$2"
+      ],
+      "description": "The for loop syntax"
+    },
+    "The for loop where the list in the loop body is a range": {
+      "prefix": "for-range",
+      "body": [
+          "for var in [${1:first}..${2:last}] do",
+          "#    ${3:statements}",
+          "od;",
+          "$4"
+      ],
+      "description": "The for loop where the list in the loop body is a range"
+    },
+    "The while loop syntax": {
+      "prefix": "while",
+      "body": [
+          "while ${1:condition} do",
+          "#    ${2:statements}",
+          "od;",
+          "$3"
+      ],
+      "description": "The while loop syntax"
+    },
+    "The function syntax": {
+      "prefix": "func",
+      "body": [
+          "function( ${1:arguments} )",
+          "#    ${2:statements}",
+          "end;",
+          "$3"
+      ],
+      "description": "The function syntax"
+    },
+    "The if-elif-else syntax": {
+      "prefix": "if-elif-else",
+      "body": [
+          "if ${1:condition} then",
+          "#    ${2:statements}",
+          "elif ${3:condition} then",
+          "#    ${4:statements}",
+          "else",
+          "#    ${5:statements}",
+          "fi;",
+          "$6"
+      ],
+      "description": "The if-elif-else syntax"
+    },
+    "The if-else syntax": {
+      "prefix": "if-else",
+      "body": [
+          "if ${1:condition} then",
+          "#    ${2:statements}",
+          "else",
+          "#    ${3:statements}",
+          "fi;",
+          "$4"
+      ],
+      "description": "The if-else syntax"
+    },
+    "The if syntax": {
+      "prefix": "if",
+      "body": [
+          "if ${1:condition} then",
+          "#    ${2:statements}",
+          "fi;",
+          "$3"
+      ],
+      "description": "The if syntax"
+    }
+}
