@@ -22,7 +22,7 @@ jobs:
         node-version: 16.x
     - name: NPM Install 
       run: npm install
-    - name: Install dependencies
+    - name: Install VSCE
       run: npm install vsce --save-dev
     - name: Publish package
       if: success() && startsWith(github.ref, 'refs/tags/') && matrix.os == 'ubuntu-latest'
