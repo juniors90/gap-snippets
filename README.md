@@ -1,5 +1,8 @@
 # gap-snippets
 
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/juniors90.gap-snippets)
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/juniors90.gap-snippets)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/juniors90.gap-snippets)
 [![GitHub issues](https://img.shields.io/github/issues/juniors90/gap-snippets)](https://github.com/juniors90/gap-snippets/issues)
 [![GitHub forks](https://img.shields.io/github/forks/juniors90/gap-snippets)](https://github.com/juniors90/gap-snippets/network)
 [![GitHub stars](https://img.shields.io/github/stars/juniors90/gap-snippets)](https://github.com/juniors90/gap-snippets/stargazers)
@@ -15,7 +18,7 @@ A collection of different GAP snippets.
 ### Details
 
 -   License: MIT
--   Version: 0.0.1
+-   Version: 0.0.2
 -   Extension URI: https://github.com/juniors90/gap-snippets
 
 ## Known Issues
