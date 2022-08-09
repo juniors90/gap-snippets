@@ -16,6 +16,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 16.x
-    - run: npm install
+    - name: NPM Install 
+      run: npm install
+    - name: Install VSCE
     - run: yarn add vsce --dev
-      if: runner.os != 'Linux'
