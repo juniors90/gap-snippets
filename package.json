@@ -50,5 +50,8 @@
         "path": "./snippets/autodoc-2020.08.11.code-snippets"
       }
     ]
+  },
+  "scripts": {
+    "deploy": "vsce publish"
   }
 }
