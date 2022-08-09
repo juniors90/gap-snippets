@@ -1,0 +1,167 @@
+{
+	// Place your snippets for gap here. Each snippet is defined under
+    // a snippet name and has a prefix, body and description. The prefix
+    // is what is used to trigger the snippet and the body will be expanded
+    // and inserted. Possible variables are: $1, $2 for tab stops, $0
+    // for the final cursor position, and ${1:label}, ${2:another} for
+    // placeholders. Placeholders with the same ids are connected.
+	// Example:
+	"Create a header worksheet": {
+	 	"prefix": "worksheet",
+	 	"body": [
+            "#! @Title ${1:<Your-Title>}",
+            "#! @Subtitle ${2:<Your-Subtitle>}",
+            "#! @Author ${3:<Author-Name>}",
+            "#! @Version ${4:<Your-Version>}",
+            "#! @TitleComment ${5:<Your-TitleComment>}",
+            "#! @Date ${6:<Date>}",
+            "#! @Address ${7:<Your-Address>}",
+            "#! @Abstract",
+            "#! ${8:<Your-Abstract>}",
+            "#! @Copyright ${9:<Year>} ${10:<Your-Fullname>}",
+            "#! @Acknowledgements ${11:<Your-Acknowledgements>}",
+            "#! @Colophon ${12:<Some-Colophon>}",
+	 		"$13"
+	 	],
+	 	"description": "Create a header worksheet"
+	},
+    "Declare Operation":{
+        "prefix": "dof",
+        "body": [
+            "#! @Arguments ${1:args}",
+            "#! @Returns ${2:ret_val}",
+            "#! @Description",
+            "#!  ${3:desc}",
+            "DeclareOperation( '${4:name}', ${5:filters} );"
+        ],
+        "description": "Create a DeclareOpreation Function."
+    },
+    "Example Environment":{
+        "prefix": "beginExample",
+        "body": [
+            "#! @BeginExample",
+            "",
+            "#! @EndExample",
+        ],
+        "description": "Create a example environment."
+    },
+    "Label":{
+        "prefix": "label",
+        "body": [
+            "#! @Label ${1:label}"
+        ],
+        "description": "Create a label."
+    },
+    "Group":{
+        "prefix": "group",
+        "body": [
+            "#! @Group ${1:function}"
+        ],
+        "description": "Create a group."
+    },
+    "Chapter Info":{
+        "prefix": "chapterInfo",
+        "body": [
+            "#! @ @ChapterInfo ${1:Chapter-Info}"
+        ],
+        "description": "Create a Chapter Info."
+    },
+    "Chapter":{
+        "prefix": "chapter",
+        "body": [
+            "#! @Chapter ${1:name}",
+            "#! @ChapterLabel ${2:label}",
+            "#! @ChapterTitle ${3:title}"
+        ],
+        "description": "Create a Chapter."
+    },
+    "Group Environment":{
+        "prefix": "beginGroup",
+        "body": [
+            "#! @BeginGroup ${1:GroupName}",
+            "#!",
+            "#! @Description",
+            "#! First sentence.",
+            "DeclareAttribute( '${2:name}', ${3:filters} );",
+            "",
+            "#! @Description",
+            "#! Second sentence.",
+            "DeclareOperation( '${4:name}', ${5:filters} );",
+            "#!",
+            "#! @EndGroup"
+        ],
+        "description": "Create a Group Environment."
+    },
+    "Example Session Environment":{
+        "prefix": "beginExampleSession",
+        "body": [
+            "#! @BeginExampleSession",
+            "# Enter your example code:",
+            "#! gap> S5 := SymmetricGroup(5);",
+            "#! Sym( [ 1 .. 5 ] )",
+            "#! gap> Order(S5);",
+            "#! 120",
+            "#! @EndExampleSession",
+        ],
+        "description": "Create a example environment."
+    },
+    "Example Chunk Environment":{
+        "prefix": "beginChunk",
+        "body": [
+            "#! @BeginChunk ${1:Example_Chunk_Name}",
+            "#! @BeginExample",
+            "#! ${2:Insert a code block...}",
+            "#! @EndExample",
+            "#! @EndChunk"
+        ],
+        "description": "Create a chunk environment."
+    },
+    "Insert Chunk Environment":{
+        "prefix": "insertChunk",
+        "body": "#! @InsertChunk ${1:Example_Chunk_Name}",
+        "description": "Insert a chunk environment."
+    },
+    "Create a Code Environment":{
+        "prefix": "beginCode",
+        "body": [
+            "#! @BeginCode ${1:Name}",
+            "${2:Insert a code block...}",
+            "#! @EndCode"
+        ],
+        "description": "Create a Code environment."
+    },
+    "Insert Code Environment":{
+        "prefix": "insertCode",
+        "body": "#! @InsertCode ${1:Name}",
+        "description": "Insert a code environment."
+    },
+    "Create LatexOnly Environment":{
+        "prefix": "beginLatexOnly",
+        "body": [
+            "#! @BeginLatexOnly",
+            "#! \\include{${1:Name.tex}}",
+            "#! @EndLatexOnly"
+        ],
+        "description": "Create a Code environment."
+    },
+    "Insert LatexOnly Environment":{
+        "prefix": "LatexOnly",
+        "body": "#! @LatexOnly \\include{${1:Name.tex}}",
+        "description": "Insert LatexOnly environment."
+    },
+    
+    "Create NotLatex Environment":{
+        "prefix": "beginNotLatex",
+        "body": [
+            "#! @BeginNotLatex",
+            "#! ${1:For further information see the PDF version of this manual.}",
+            "#! @EndNotLatex"
+        ],
+        "description": "Create a Code environment."
+    },
+    "Insert NotLatex Environment":{
+        "prefix": "NotLatex",
+        "body": "#! @NotLatex ${1:For further information see the PDF version of this manual.}",
+        "description": "Insert NotLatex environment."
+    }
+}

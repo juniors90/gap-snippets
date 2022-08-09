@@ -1,8 +1,8 @@
 {
   "name": "gap-snippets",
   "displayName": "GAP Snippets",
-  "description": "Code snippets to build a program with GAP.",
-  "version": "0.0.1",
+  "description": "A collection of different GAP snippets.",
+  "version": "0.0.2",
   "publisher": "juniors90",
   "engines": {
     "vscode": "^1.18.0"
@@ -38,6 +38,16 @@
           "..gaprc"
         ],
         "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "gap",
+        "extensions": [
+          ".g",
+          ".gi",
+          ".gd",
+          "..gaprc"
+        ],
+        "path": "./snippets/autodoc-2020.08.11.code-snippets"
       }
     ]
   }
